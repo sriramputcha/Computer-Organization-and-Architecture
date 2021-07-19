@@ -1,5 +1,5 @@
 # CS2610 - Computer Organization and Architecture Lab
-**Team:** Ravi, Vineeth, Goutam
+**Team:** Ravisri, Vineeth, Goutam
 
 ## Cache Simulator
 
