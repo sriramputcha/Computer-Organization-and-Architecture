@@ -4,8 +4,8 @@
 ## Cache Simulator
 
 [Detailed problem statement](https://github.com/Vineeth-Kada/Computer-Organization-and-Architecture/blob/main/Cache%20Simulator/Problem%20Statement.pdf)
-* Implements cache based on random, LRU, or pseudo LRU replacement policy
-* Allows user to customize cache size, block size, and associativity
+* Implemented a single level cache with random, [LRU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)), and [pseudo LRU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Pseudo-LRU_(PLRU)) replacement policies.
+* User can customize cache size, block size, and associativity.
 * Given memory trace, finds counts on number of accesses, misses and evictions
-    
+
 ## Pipelined Processor
