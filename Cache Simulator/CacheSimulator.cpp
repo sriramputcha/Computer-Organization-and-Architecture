@@ -56,16 +56,16 @@ class cache {
         /* Obtains information about cache type and fields of a token in the memory trace  */
         void scanDetailsAndPreprocess() {
             bool validInput = false;
+            cout << "Enter Cache Size(power of 2): ";
             while(! validInput){
-                cout << "Enter Cache Size(power of 2): ";
                 cin  >>  cacheSize;
                 if(__builtin_popcount(cacheSize) == 1) validInput = true;
                 else cout << "Please enter a power of 2: ";
             }
             
             validInput = false;
+            cout << "Enter Block Size(power of 2): ";
             while(! validInput){
-                cout << "Enter Block Size(power of 2): ";
                 cin  >>  blockSize;
                 if(__builtin_popcount(blockSize) == 1) validInput = true;
                 else cout << "Please enter a power of 2: ";
@@ -74,8 +74,8 @@ class cache {
             /* associativity = 0 for fully associative, 1 for direct-mapped, 2/4/8/16/32 for set-associative */
             /* replacementPolicy = 0 for random, 1 for LRU, 2 for Pseudo-LRU */
             validInput = false;
+            cout << "Enter associativity (0 for fully associative, 1 for direct-mapped, 2/4/8/16/32 for set-associative): ";
             while(! validInput){
-                cout << "Enter associativity (0 for fully associative, 1 for direct-mapped, 2/4/8/16/32 for set-associative): ";
                 cin  >>  associativity;
                 if(__builtin_popcount(associativity) == 1 && associativity <= 32) validInput = true;
                 else cout << "Please enter a valid input: ";
