@@ -4,7 +4,7 @@
  * Roll No: CS19B081, CS19B080, CS19B073
  * =======================================================================================================*/
 
- /* == IMPORTANT: PLEASE USE C++11 OR HIGHER == */
+/* == IMPORTANT: PLEASE USE C++11 OR HIGHER == */
 
 #include<bits/stdc++.h>
 using namespace std;
